@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="blocksDescendants"
+        tools:context=".Activities.LectureListActivity">
+
+        <ImageView
+            android:id="@+id/lecture_list_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/topic_image_height"
+            android:scaleType="centerCrop"
+            android:transitionName="topic_image_transition" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/lecture_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/default_margin"
+            app:layout_constraintTop_toBottomOf="@id/lecture_list_image_view">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v4.widget.NestedScrollView>

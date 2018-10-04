@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/topic_list_wrapper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Activities.TopicListActivity">
+
+    <ProgressBar
+        android:id="@+id/topic_progress_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/topic_grid_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnWidth="@dimen/topic_image_width"
+        android:gravity="center"
+        android:numColumns="auto_fit"
+        android:scrollbars="vertical"
+        android:stretchMode="columnWidth"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/topic_message_view"
+        style="@style/messageViewStyle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

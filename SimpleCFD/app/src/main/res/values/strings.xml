@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Simple CFD</string>
+    <string name="refresh">Refresh</string>
+    <string name="refresh_message">Updating lecture material</string>
+    <string name="no_topics_message">No topics available</string>
+    <string name="offline_mode_message">Offline mode</string>
+    <string name="no_internet_message">No internet connection available</string>
+    <string name="loading_online_message">Loading data from network</string>
+    <string name="loading_offline_message">Loading data from device</string>
+
+    <string name="lecture_read">READ</string>
+    <string name="lecture_watch">WATCH</string>
+    <string name="next_button_text">NEXT</string>
+    <string name="prev_button_text">PREVIOUS</string>
+    <string name="add_widget">Add widget</string>
+</resources>

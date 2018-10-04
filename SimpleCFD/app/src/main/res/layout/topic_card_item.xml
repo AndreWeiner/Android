@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topic_card_item_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/default_margin"
+        android:layout_height="wrap_content"
+        card_view:cardElevation="@dimen/default_card_elevation"
+        card_view:cardCornerRadius="@dimen/default_card_edge_radius">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/topic_image_view"
+                android:transitionName="topic_image_transition"
+                android:background="@color/light_gray"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/topic_image_height"
+                android:scaleType="centerCrop" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="@dimen/default_margin"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/default_margin">
+
+                <TextView
+                    android:id="@+id/topic_name_view"
+                    android:textSize="@dimen/large_text_size"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:maxLines="@integer/max_topic_name_lines"
+                    android:layout_marginBottom="@dimen/small_margin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/topic_description_view"
+                    android:textSize="@dimen/normal_text_size"
+                    android:maxLines="@integer/max_description_lines"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</FrameLayout>

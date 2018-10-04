@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="@dimen/default_margin"
+    android:layout_marginStart="@dimen/default_margin"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lecture_item_id"
+            android:layout_width="@dimen/lecture_list_item_id_width"
+            android:layout_height="@dimen/lecture_list_item_height"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/lecture_item_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/lecture_list_item_height"
+            android:background="@color/colorPrimary"
+            android:gravity="center_vertical"
+            android:paddingStart="@dimen/default_margin"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sep_line_width"
+        android:background="@color/white" />
+
+</LinearLayout>
