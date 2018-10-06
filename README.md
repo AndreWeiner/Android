@@ -3,10 +3,10 @@
 ## Simple CFD
 Simple CFD is an app to learn computational fluid dynamics (CFD). The document *simple_cfd_project_proposal.pdf* contains further details. Note that this is only a prototype app.
 
-<img style='width: 150px' src="screenshots/main_view.png"></img>
-<img style='width: 150px' src="screenshots/course_view.png"></img>
-<img style='width: 150px' src="screenshots/lecture_read_view.png"></img>
-<img style='width: 150px' src="screenshots/lecture_video_view.png"></img>
+<img src="screenshots/main_view.png" width="150">
+<img src="screenshots/course_view.png" width="150">
+<img src="screenshots/lecture_read_view.png" width="150">
+<img src="screenshots/lecture_video_view.png" width="150">
 
 ## Files and folders
 * \*.png: course topic header images; the images are loaded by the app from the github repository.
