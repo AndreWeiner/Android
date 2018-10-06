@@ -2,26 +2,26 @@
 {
   "topic_name":"CFD Basics",
   "topic_description":"Run your first simulation, check grid convergence and solve transport equations",
-  "topic_image_url":"https://raw.githubusercontent.com/AndreWeiner/Android/master/cfd_basics_image.png",
+  "topic_image_url":"https://raw.githubusercontent.com/AndreWeiner/Simple-CFD/master/sample_lecture_material/cfd_basics_image.png",
   "lectures": [
     {
     "lecture_title": "Introduction to CFD",
-    "lecture_text_url": "https://raw.githubusercontent.com/AndreWeiner/Android/master/lecture_html.html",
+    "lecture_text_url": "https://raw.githubusercontent.com/AndreWeiner/Simple-CFD/master/sample_lecture_material/lecture_html.html",
     "lecture_video_id": "mGSUIXye9j4"
     },
     {
     "lecture_title": "How to run your first simulation part I",
-    "lecture_text_url": "https://raw.githubusercontent.com/AndreWeiner/Android/master/lecture_html.html",
+    "lecture_text_url": "https://raw.githubusercontent.com/AndreWeiner/Simple-CFD/master/sample_lecture_material/lecture_html.html",
     "lecture_video_id": "KznljrgWSvo"
     },
     {
     "lecture_title": "How to run your first simulation part II",
-    "lecture_text_url": "https://raw.githubusercontent.com/AndreWeiner/Android/master/lecture_html.html",
+    "lecture_text_url": "https://raw.githubusercontent.com/AndreWeiner/Simple-CFD/master/sample_lecture_material/lecture_html.html",
     "lecture_video_id": "bJTSKaxG58Y"
     },
     {
     "lecture_title": "Create a mesh with blockMesh",
-    "lecture_text_url": "https://raw.githubusercontent.com/AndreWeiner/Android/master/lecture_html.html",
+    "lecture_text_url": "https://raw.githubusercontent.com/AndreWeiner/Simple-CFD/master/sample_lecture_material/lecture_html.html",
     "lecture_video_id": "Ds0eK1wXMks"
     }
   ]
@@ -29,26 +29,26 @@
 {
   "topic_name":"CFD Intermediate",
   "topic_description":"Learn about meshing and turbulence models",
-  "topic_image_url":"https://raw.githubusercontent.com/AndreWeiner/Android/master/cfd_intermediate_image.png",
+  "topic_image_url":"https://raw.githubusercontent.com/AndreWeiner/Simple-CFD/master/sample_lecture_material/cfd_intermediate_image.png",
   "lectures": [
     {
     "lecture_title": "Introduction to CFD",
-    "lecture_text_url": "https://raw.githubusercontent.com/AndreWeiner/Android/master/lecture_html.html",
+    "lecture_text_url": "https://raw.githubusercontent.com/AndreWeiner/Simple-CFD/master/sample_lecture_material/lecture_html.html",
     "lecture_video_id": "mGSUIXye9j4"
     },
     {
     "lecture_title": "How to run your first simulation part I",
-    "lecture_text_url": "https://raw.githubusercontent.com/AndreWeiner/Android/master/lecture_html.html",
+    "lecture_text_url": "https://raw.githubusercontent.com/AndreWeiner/Simple-CFD/master/sample_lecture_material/lecture_html.html",
     "lecture_video_id": "KznljrgWSvo"
     },
     {
     "lecture_title": "How to run your first simulation part II",
-    "lecture_text_url": "https://raw.githubusercontent.com/AndreWeiner/Android/master/lecture_html.html",
+    "lecture_text_url": "https://raw.githubusercontent.com/AndreWeiner/Simple-CFD/master/sample_lecture_material/lecture_html.html",
     "lecture_video_id": "bJTSKaxG58Y"
     },
     {
     "lecture_title": "Create a mesh with blockMesh",
-    "lecture_text_url": "https://raw.githubusercontent.com/AndreWeiner/Android/master/lecture_html.html",
+    "lecture_text_url": "https://raw.githubusercontent.com/AndreWeiner/Simple-CFD/master/sample_lecture_material/lecture_html.html",
     "lecture_video_id": "Ds0eK1wXMks"
     }
   ]
@@ -56,26 +56,26 @@
 {
   "topic_name":"Multiphase flows",
   "topic_description":"Learn how to model multipe phases with the VOF-method",
-  "topic_image_url":"https://raw.githubusercontent.com/AndreWeiner/Android/master/cfd_vof_image.png",
+  "topic_image_url":"https://raw.githubusercontent.com/AndreWeiner/Simple-CFD/master/sample_lecture_material/cfd_vof_image.png",
   "lectures": [
     {
     "lecture_title": "Introduction to CFD",
-    "lecture_text_url": "https://raw.githubusercontent.com/AndreWeiner/Android/master/lecture_html.html",
+    "lecture_text_url": "https://raw.githubusercontent.com/AndreWeiner/Simple-CFD/master/sample_lecture_material/lecture_html.html",
     "lecture_video_id": "mGSUIXye9j4"
     },
     {
     "lecture_title": "How to run your first simulation part I",
-    "lecture_text_url": "https://raw.githubusercontent.com/AndreWeiner/Android/master/lecture_html.html",
+    "lecture_text_url": "https://raw.githubusercontent.com/AndreWeiner/Simple-CFD/master/sample_lecture_material/lecture_html.html",
     "lecture_video_id": "KznljrgWSvo"
     },
     {
     "lecture_title": "How to run your first simulation part II",
-    "lecture_text_url": "https://raw.githubusercontent.com/AndreWeiner/Android/master/lecture_html.html",
+    "lecture_text_url": "https://raw.githubusercontent.com/AndreWeiner/Simple-CFD/master/sample_lecture_material/lecture_html.html",
     "lecture_video_id": "bJTSKaxG58Y"
     },
     {
     "lecture_title": "Create a mesh with blockMesh",
-    "lecture_text_url": "https://raw.githubusercontent.com/AndreWeiner/Android/master/lecture_html.html",
+    "lecture_text_url": "https://raw.githubusercontent.com/AndreWeiner/Simple-CFD/master/sample_lecture_material/lecture_html.html",
     "lecture_video_id": "Ds0eK1wXMks"
     }
   ]
@@ -83,26 +83,26 @@
 {
   "topic_name":"Tips and tricks",
   "topic_description":"Learn how to run simulations effectively",
-  "topic_image_url":"https://raw.githubusercontent.com/AndreWeiner/Android/master/cfd_tips.png",
+  "topic_image_url":"https://raw.githubusercontent.com/AndreWeiner/Simple-CFD/master/sample_lecture_material/cfd_tips.png",
   "lectures": [
     {
     "lecture_title": "Introduction to CFD",
-    "lecture_text_url": "https://raw.githubusercontent.com/AndreWeiner/Android/master/lecture_html.html",
+    "lecture_text_url": "https://raw.githubusercontent.com/AndreWeiner/Simple-CFD/master/sample_lecture_material/lecture_html.html",
     "lecture_video_id": "mGSUIXye9j4"
     },
     {
     "lecture_title": "How to run your first simulation part I",
-    "lecture_text_url": "https://raw.githubusercontent.com/AndreWeiner/Android/master/lecture_html.html",
+    "lecture_text_url": "https://raw.githubusercontent.com/AndreWeiner/Simple-CFD/master/sample_lecture_material/lecture_html.html",
     "lecture_video_id": "KznljrgWSvo"
     },
     {
     "lecture_title": "How to run your first simulation part II",
-    "lecture_text_url": "https://raw.githubusercontent.com/AndreWeiner/Android/master/lecture_html.html",
+    "lecture_text_url": "https://raw.githubusercontent.com/AndreWeiner/Simple-CFD/master/sample_lecture_material/lecture_html.html",
     "lecture_video_id": "bJTSKaxG58Y"
     },
     {
     "lecture_title": "Create a mesh with blockMesh",
-    "lecture_text_url": "https://raw.githubusercontent.com/AndreWeiner/Android/master/lecture_html.html",
+    "lecture_text_url": "https://raw.githubusercontent.com/AndreWeiner/Simple-CFD/master/sample_lecture_material/lecture_html.html",
     "lecture_video_id": "Ds0eK1wXMks"
     }
   ]
