@@ -3,31 +3,18 @@
 ## Simple CFD
 Simple CFD is an app to learn computational fluid dynamics (CFD). The document *simple_cfd_project_proposal.pdf* contains further details. Note that this is only a prototype app.
 
-<style type='text/css'>
-  .column {
-    float: left;
-    width: 25%;
-    padding: 5px;
-  }
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-</style>
-
 <div class="row">
  <div class="column" >
-   <img src="screenshots/main_view.png" alt="Topics overview" style="width:100%">
+   <img src="screenshots/main_view.png" alt="Topics overview" style="width:25%;float:left; padding:5px">
  </div>
  <div class="column">
-   <img src="screenshots/course_view.png" alt="Lecture overview" style="width:100%">
+   <img src="screenshots/course_view.png" alt="Lecture overview" style="width:25%;float:left; padding:5px">
  </div>
  <div class="column">
-   <img src="screenshots/lecture_read_view.png" alt="Reading lecture" style="width:100%">
+   <img src="screenshots/lecture_read_view.png" alt="Reading lecture" style="width:25%;float:left; padding:5px">
  </div>
  <div class="column">
-   <img src="screenshots/lecture_video_view.png" alt="Video lecture" style="width:100%">
+   <img src="screenshots/lecture_video_view.png" alt="Video lecture" style="width:25%;float:left; padding:5px">
  </div>
 </div>
 
