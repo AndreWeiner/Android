@@ -38,7 +38,7 @@ Simple CFD is an app to learn computational fluid dynamics (CFD). The document *
 * SimpleCFD: Android Studio project folder; contains the actual app.
 
 ## Google service
-The app uses Google's [AdMob](https://developers.google.com/admob/android/quick-start) to display advertisement at each start of the app and [Firebase Analytics](https://firebase.google.com/docs/analytics/android/start/) to track the popularity of topics.
+The app uses Google's [AdMob](https://developers.google.com/admob/android/quick-start) to display advertisement at each start of the app and [Firebase Analytics](https://firebase.google.com/docs/analytics/android/start/) to track the popularity of topics. To use the services you need valid API-keys for the Android Youtube Player (see link below), AdMob, and Firebase. The keys are stored in the *SimpleCFD/gradle.properties* file (AdMob, Youtube) and in the *SimpleCFD/app/google-services.json* file (Firebase).
 
 ## Software and libraries
 Build with
